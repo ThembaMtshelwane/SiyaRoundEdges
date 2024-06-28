@@ -17,7 +17,7 @@ body {
 }
 
 main {
-  border: 2px solid rgba(255, 0, 0, 0.171);
+  /* border: 2px solid rgba(255, 0, 0, 0.171); */
   background-color: rgba(255, 0, 0, 0.171);
   display: flex;
   flex-direction: column;
@@ -28,18 +28,20 @@ main {
 }
 
 nav {
-  border: 1px solid rgba(255, 0, 0, 0.171);
+  /* border: 1px solid rgba(255, 0, 0, 0.171); */
+  background-color: rgba(255, 0, 0, 0.171);
   width: 100%;
   margin-bottom: 10px;
   padding: 10px;
   display: flex;
   justify-content: space-between;
+  border-radius: 20px;
 }
 
 .nav-item {
   background-color: rgba(255, 0, 0, 0.192);
   padding: 10px;
-  border-radius: 2px;
+  border-radius: 20px;
 }
 .nav-item:hover {
   transform: scale(1.02);
@@ -52,7 +54,7 @@ a {
 .top-section {
   border: 2px solid rgba(0, 128, 0, 0.171);
   background-color: rgba(0, 128, 0, 0.171);
-  border-radius: 5px;
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -94,8 +96,8 @@ h1 {
 
 li {
   /* border: 2px solid red; */
-  padding: 5px;
-  border-radius: 2px;
+  padding: 7px;
+  border-radius: 20px;
 }
 
 .projects-section {
@@ -104,8 +106,8 @@ li {
 }
 
 .project-n {
-  border: 2px solid rgba(255, 0, 0, 0.171);
-  border-radius: 5px;
+  /* border: 2px solid rgba(255, 0, 0, 0.171); */
+  border-radius: 20px;
   background-color: rgba(0, 0, 255, 0.171);
   display: flex;
   flex-direction: column;
@@ -129,7 +131,7 @@ li {
   /* border: 2px solid red; */
   height: 290px;
   width: 100%;
-  border-radius: 5px;
+  border-radius: 20px;
 }
 
 .image:hover {
@@ -161,7 +163,7 @@ li {
   height: fit-content;
   width: 100%;
   margin-top: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   font-size: 1.2rem;
 }
 
@@ -191,8 +193,14 @@ li {
 
 .seeRepo {
   background-color: #007bff;
-  padding: 10px;
-  border-radius: 10px;
+  padding: 7px 10px 7px 10px;
+  border-radius: 25px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 50px;
 }
 
 .contactInfo {
